@@ -12,6 +12,10 @@
 		A3353959262E9E6D00807212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3353957262E9E6D00807212 /* Main.storyboard */; };
 		A335395B262E9E6F00807212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A335395A262E9E6F00807212 /* Assets.xcassets */; };
 		A335395E262E9E6F00807212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A335395C262E9E6F00807212 /* LaunchScreen.storyboard */; };
+		A335397F262EA7BB00807212 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335397D262EA7BB00807212 /* ResultsViewController.swift */; };
+		A3353980262EA7BB00807212 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335397E262EA7BB00807212 /* CalculateViewController.swift */; };
+		A3353985262EA7E900807212 /* BMI_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3353983262EA7E800807212 /* BMI_Model.swift */; };
+		A3353986262EA7E900807212 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3353984262EA7E900807212 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A335395A262E9E6F00807212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A335395D262E9E6F00807212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A335395F262E9E6F00807212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A335397D262EA7BB00807212 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		A335397E262EA7BB00807212 /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		A3353983262EA7E800807212 /* BMI_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMI_Model.swift; sourceTree = "<group>"; };
+		A3353984262EA7E900807212 /* BMI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,9 @@
 			children = (
 				A3353951262E9E6D00807212 /* AppDelegate.swift */,
 				A3353953262E9E6D00807212 /* SceneDelegate.swift */,
+				A3353982262EA7D600807212 /* Model */,
 				A3353969262EA22800807212 /* View */,
+				A335397C262EA79100807212 /* Controller */,
 				A335395A262E9E6F00807212 /* Assets.xcassets */,
 				A335395C262E9E6F00807212 /* LaunchScreen.storyboard */,
 				A335395F262E9E6F00807212 /* Info.plist */,
@@ -70,6 +80,24 @@
 				A3353957262E9E6D00807212 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A335397C262EA79100807212 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A335397E262EA7BB00807212 /* CalculateViewController.swift */,
+				A335397D262EA7BB00807212 /* ResultsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3353982262EA7D600807212 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3353983262EA7E800807212 /* BMI_Model.swift */,
+				A3353984262EA7E900807212 /* BMI.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3353980262EA7BB00807212 /* CalculateViewController.swift in Sources */,
+				A3353985262EA7E900807212 /* BMI_Model.swift in Sources */,
 				A3353952262E9E6D00807212 /* AppDelegate.swift in Sources */,
 				A3353954262E9E6D00807212 /* SceneDelegate.swift in Sources */,
+				A3353986262EA7E900807212 /* BMI.swift in Sources */,
+				A335397F262EA7BB00807212 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
