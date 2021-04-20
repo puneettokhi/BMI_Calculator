@@ -22,12 +22,9 @@ class ResultsViewController: UIViewController {
         bmiLabel.text = bmiValue
         adviceLabel.text = advice
         backgroundColor.backgroundColor = color
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
-
 }
